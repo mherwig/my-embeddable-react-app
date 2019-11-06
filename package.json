@@ -1,9 +1,13 @@
 {
   "name": "@mherwig/my-embeddable-react-app",
   "version": "0.1.0",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "files": [
+    "build",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/mherwig/my-embeddable-react-app.git"
@@ -11,7 +15,7 @@
   "author": "Mike Herwig",
   "keyword": "example,demo,learning",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -23,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
