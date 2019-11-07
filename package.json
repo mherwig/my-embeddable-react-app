@@ -1,6 +1,6 @@
 {
   "name": "@mherwig/my-embeddable-react-app",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Example react app for importing as module",
   "author": "Mike Herwig",
   "license": "MIT",
