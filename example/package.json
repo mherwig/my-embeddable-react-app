@@ -1,0 +1,20 @@
+{
+  "name": "@mherwig/my-embeddable-react-app-example",
+  "homepage": "https://mherwig.github.io/@mherwig/my-embeddable-react-app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
+    "@mherwig/my-embeddable-react-app": "file:.."
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
