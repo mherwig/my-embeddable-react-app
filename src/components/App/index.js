@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <InlineSVG className="App-logo" src={Logo} />
+        <div className="App-logo"><InlineSVG src={Logo} /></div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
